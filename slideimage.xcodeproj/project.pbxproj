@@ -15,10 +15,10 @@
 		E161C53E19D53D2A0000C92B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E161C53C19D53D2A0000C92B /* LaunchScreen.xib */; };
 		E161C54A19D53D2A0000C92B /* slideimageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E161C54919D53D2A0000C92B /* slideimageTests.m */; };
 		E161C55819D53FD10000C92B /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E161C55719D53FD10000C92B /* CycleScrollView.m */; };
-		E161C55B19D5416C0000C92B /* CMImageSlideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E161C55A19D5416C0000C92B /* CMImageSlideSubtitleView.m */; };
-		E161C55F19D551140000C92B /* CMImageSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E161C55E19D551140000C92B /* CMImageSlideViewController.m */; };
 		E161C56219D553170000C92B /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E161C56119D553170000C92B /* NSTimer+Addition.m */; };
-		E1A70AB819D800F0002220D1 /* CMImageSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A70AB719D800F0002220D1 /* CMImageSlideView.m */; };
+		E1A70AC119D80DA2002220D1 /* CMImageSlideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A70ABC19D80DA2002220D1 /* CMImageSlideSubtitleView.m */; };
+		E1A70AC219D80DA2002220D1 /* CMImageSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A70ABE19D80DA2002220D1 /* CMImageSlideView.m */; };
+		E1A70AC319D80DA2002220D1 /* CMImageSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A70AC019D80DA2002220D1 /* CMImageSlideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,15 +47,15 @@
 		E161C54919D53D2A0000C92B /* slideimageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slideimageTests.m; sourceTree = "<group>"; };
 		E161C55619D53FD10000C92B /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
 		E161C55719D53FD10000C92B /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
-		E161C55919D5416C0000C92B /* CMImageSlideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageSlideSubtitleView.h; sourceTree = "<group>"; };
-		E161C55A19D5416C0000C92B /* CMImageSlideSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMImageSlideSubtitleView.m; sourceTree = "<group>"; };
 		E161C55C19D545880000C92B /* contain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = contain.h; sourceTree = "<group>"; };
-		E161C55D19D551140000C92B /* CMImageSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageSlideViewController.h; sourceTree = "<group>"; };
-		E161C55E19D551140000C92B /* CMImageSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMImageSlideViewController.m; sourceTree = "<group>"; };
 		E161C56019D553170000C92B /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
 		E161C56119D553170000C92B /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
-		E1A70AB619D800F0002220D1 /* CMImageSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageSlideView.h; sourceTree = "<group>"; };
-		E1A70AB719D800F0002220D1 /* CMImageSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMImageSlideView.m; sourceTree = "<group>"; };
+		E1A70ABB19D80DA2002220D1 /* CMImageSlideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageSlideSubtitleView.h; sourceTree = "<group>"; };
+		E1A70ABC19D80DA2002220D1 /* CMImageSlideSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMImageSlideSubtitleView.m; sourceTree = "<group>"; };
+		E1A70ABD19D80DA2002220D1 /* CMImageSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageSlideView.h; sourceTree = "<group>"; };
+		E1A70ABE19D80DA2002220D1 /* CMImageSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMImageSlideView.m; sourceTree = "<group>"; };
+		E1A70ABF19D80DA2002220D1 /* CMImageSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageSlideViewController.h; sourceTree = "<group>"; };
+		E1A70AC019D80DA2002220D1 /* CMImageSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMImageSlideViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +97,7 @@
 		E161C52C19D53D2A0000C92B /* slideimage */ = {
 			isa = PBXGroup;
 			children = (
+				E1A70ABA19D80DA2002220D1 /* CMImageSlideViewController */,
 				E161C55619D53FD10000C92B /* CycleScrollView.h */,
 				E161C55719D53FD10000C92B /* CycleScrollView.m */,
 				E161C56019D553170000C92B /* NSTimer+Addition.h */,
@@ -106,12 +107,6 @@
 				E161C53419D53D2A0000C92B /* ViewController.h */,
 				E161C53519D53D2A0000C92B /* ViewController.m */,
 				E161C53719D53D2A0000C92B /* Main.storyboard */,
-				E161C55919D5416C0000C92B /* CMImageSlideSubtitleView.h */,
-				E1A70AB619D800F0002220D1 /* CMImageSlideView.h */,
-				E1A70AB719D800F0002220D1 /* CMImageSlideView.m */,
-				E161C55A19D5416C0000C92B /* CMImageSlideSubtitleView.m */,
-				E161C55D19D551140000C92B /* CMImageSlideViewController.h */,
-				E161C55E19D551140000C92B /* CMImageSlideViewController.m */,
 				E161C53A19D53D2A0000C92B /* Images.xcassets */,
 				E161C53C19D53D2A0000C92B /* LaunchScreen.xib */,
 				E161C52D19D53D2A0000C92B /* Supporting Files */,
@@ -144,6 +139,19 @@
 				E161C54819D53D2A0000C92B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1A70ABA19D80DA2002220D1 /* CMImageSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1A70ABB19D80DA2002220D1 /* CMImageSlideSubtitleView.h */,
+				E1A70ABC19D80DA2002220D1 /* CMImageSlideSubtitleView.m */,
+				E1A70ABD19D80DA2002220D1 /* CMImageSlideView.h */,
+				E1A70ABE19D80DA2002220D1 /* CMImageSlideView.m */,
+				E1A70ABF19D80DA2002220D1 /* CMImageSlideViewController.h */,
+				E1A70AC019D80DA2002220D1 /* CMImageSlideViewController.m */,
+			);
+			path = CMImageSlideViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,11 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E161C55F19D551140000C92B /* CMImageSlideViewController.m in Sources */,
-				E161C55B19D5416C0000C92B /* CMImageSlideSubtitleView.m in Sources */,
+				E1A70AC219D80DA2002220D1 /* CMImageSlideView.m in Sources */,
 				E161C55819D53FD10000C92B /* CycleScrollView.m in Sources */,
+				E1A70AC119D80DA2002220D1 /* CMImageSlideSubtitleView.m in Sources */,
 				E161C53619D53D2A0000C92B /* ViewController.m in Sources */,
-				E1A70AB819D800F0002220D1 /* CMImageSlideView.m in Sources */,
+				E1A70AC319D80DA2002220D1 /* CMImageSlideViewController.m in Sources */,
 				E161C53319D53D2A0000C92B /* AppDelegate.m in Sources */,
 				E161C53019D53D2A0000C92B /* main.m in Sources */,
 				E161C56219D553170000C92B /* NSTimer+Addition.m in Sources */,
