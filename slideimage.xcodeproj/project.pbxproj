@@ -18,6 +18,7 @@
 		E161C55B19D5416C0000C92B /* CMImageSlideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E161C55A19D5416C0000C92B /* CMImageSlideSubtitleView.m */; };
 		E161C55F19D551140000C92B /* CMImageSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E161C55E19D551140000C92B /* CMImageSlideViewController.m */; };
 		E161C56219D553170000C92B /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E161C56119D553170000C92B /* NSTimer+Addition.m */; };
+		E1A70AB819D800F0002220D1 /* CMImageSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A70AB719D800F0002220D1 /* CMImageSlideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E161C55E19D551140000C92B /* CMImageSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMImageSlideViewController.m; sourceTree = "<group>"; };
 		E161C56019D553170000C92B /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
 		E161C56119D553170000C92B /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		E1A70AB619D800F0002220D1 /* CMImageSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageSlideView.h; sourceTree = "<group>"; };
+		E1A70AB719D800F0002220D1 /* CMImageSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMImageSlideView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				E161C53519D53D2A0000C92B /* ViewController.m */,
 				E161C53719D53D2A0000C92B /* Main.storyboard */,
 				E161C55919D5416C0000C92B /* CMImageSlideSubtitleView.h */,
+				E1A70AB619D800F0002220D1 /* CMImageSlideView.h */,
+				E1A70AB719D800F0002220D1 /* CMImageSlideView.m */,
 				E161C55A19D5416C0000C92B /* CMImageSlideSubtitleView.m */,
 				E161C55D19D551140000C92B /* CMImageSlideViewController.h */,
 				E161C55E19D551140000C92B /* CMImageSlideViewController.m */,
@@ -245,6 +250,7 @@
 				E161C55B19D5416C0000C92B /* CMImageSlideSubtitleView.m in Sources */,
 				E161C55819D53FD10000C92B /* CycleScrollView.m in Sources */,
 				E161C53619D53D2A0000C92B /* ViewController.m in Sources */,
+				E1A70AB819D800F0002220D1 /* CMImageSlideView.m in Sources */,
 				E161C53319D53D2A0000C92B /* AppDelegate.m in Sources */,
 				E161C53019D53D2A0000C92B /* main.m in Sources */,
 				E161C56219D553170000C92B /* NSTimer+Addition.m in Sources */,
@@ -438,6 +444,7 @@
 				E161C54F19D53D2A0000C92B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E161C55019D53D2A0000C92B /* Build configuration list for PBXNativeTarget "slideimageTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				E161C55219D53D2A0000C92B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

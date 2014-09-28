@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CMImageSlideView.h"
 
-@interface CMImageSlideViewController : UIViewController
+@interface CMImageSlideViewController : UIViewController <CMImageSlideViewDelegate>
 @property(nonatomic, readonly) UIScrollView * scrollview;
 @property(nonatomic, copy)NSInteger (^totalePagesCount)(void);
 @end
